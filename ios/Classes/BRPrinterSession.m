@@ -188,8 +188,13 @@
     return settings;
       }
       break;
+    case BRLMPrinterModelTD_2030A:
     case BRLMPrinterModelTD_2120N:
+    case BRLMPrinterModelTD_2125N:
+    case BRLMPrinterModelTD_2125NWB:
     case BRLMPrinterModelTD_2130N:
+    case BRLMPrinterModelTD_2135N:
+    case BRLMPrinterModelTD_2135NWB:
     case BRLMPrinterModelTD_4100N:
     case BRLMPrinterModelTD_4420DN:
     case BRLMPrinterModelTD_4520DN:

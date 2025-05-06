@@ -64,6 +64,11 @@ const BRLMPrinterModelPT_P300BT = BrotherModel(codeIOS: 37, nameIOS: 'Brother PT
 const BRLMPrinterModelPT_P710BT = BrotherModel(codeIOS: 38, nameIOS: 'Brother PT-P710BT', codeAndroid: 57, nameAndroid: 'PT-P710BT');
 const BRLMPrinterModelPT_P715eBT = BrotherModel(codeIOS: 39, nameIOS: 'Brother PT-P715eBT', codeAndroid: 69, nameAndroid: 'PT-P715eBT');
 const BRLMPrinterModelPT_P910BT = BrotherModel(codeIOS: 40, nameIOS: 'Brother PT-P910BT', codeAndroid: 68, nameAndroid: 'PT-P910BT');
+const BRLMPrinterModelTD_2030A = BrotherModel(codeIOS: 51, nameIOS: 'Brother TD-2030A', codeAndroid: 80, nameAndroid: 'TD-2030A');
+const BRLMPrinterModelTD_2125N = BrotherModel(codeIOS: 52, nameIOS: 'Brother TD-2125N', codeAndroid: 81, nameAndroid: 'TD-2125N');
+const BRLMPrinterModelTD_2125NWB = BrotherModel(codeIOS: 53, nameIOS: 'Brother TD-2125NWB', codeAndroid: 82, nameAndroid: 'TD-2125NWB');
+const BRLMPrinterModelTD_2135N = BrotherModel(codeIOS: 54, nameIOS: 'Brother TD-2135N', codeAndroid: 83, nameAndroid: 'TD-2135N');
+const BRLMPrinterModelTD_2135NWB = BrotherModel(codeIOS: 55, nameIOS: 'Brother TD-2135NWB', codeAndroid: 84, nameAndroid: 'TD-2135NWB');
 
 const brotherModels = [
   BRLMPrinterModelPJ_673,
@@ -86,6 +91,11 @@ const brotherModels = [
   BRLMPrinterModelRJ_4250WB,
   BRLMPrinterModelTD_2120N,
   BRLMPrinterModelTD_2130N,
+  BRLMPrinterModelTD_2030A,
+  BRLMPrinterModelTD_2125N,
+  BRLMPrinterModelTD_2125NWB,
+  BRLMPrinterModelTD_2135N,
+  BRLMPrinterModelTD_2135NWB,
   BRLMPrinterModelTD_4100N,
   BRLMPrinterModelTD_4420DN,
   BRLMPrinterModelTD_4520DN,

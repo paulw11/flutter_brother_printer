@@ -68,6 +68,9 @@ public class PrinterSession {
                 Arrays.asList(PrinterInfo.Model.PT_E550W, PrinterInfo.Model.PT_P750W, PrinterInfo.Model.PT_E850TKW,
                         PrinterInfo.Model.PT_D800W, PrinterInfo.Model.PT_P900W, PrinterInfo.Model.PT_P950NW,
                         PrinterInfo.Model.PT_E800W, PrinterInfo.Model.PT_E500, PrinterInfo.Model.PT_P910BT));
+        List<PrinterInfo.Model> tdSeries = new ArrayList<PrinterInfo.Model>(
+                Arrays.asList(PrinterInfo.Model.TD_2120N, PrinterInfo.Model.TD_2130N, PrinterInfo.Model.TD_2030A, PrinterInfo.Model.TD_2125N,
+                        PrinterInfo.Model.TD_2125NWB, PrinterInfo.Model.TD_2135N, PrinterInfo.Model.TD_2135NWB));
 
         final Printer printer = new Printer();
         final PrinterInfo settings = printer.getPrinterInfo();
@@ -105,7 +108,7 @@ public class PrinterSession {
             }
         }
 
-        if (model == PrinterInfo.Model.TD_2120N || model == PrinterInfo.Model.TD_2130N) {
+        if (tdSeries.contains(model)) {
             if (paperSettingsPath == null) {
                 Log.d("BrotherPrinterPlugin", "no paperSettingsPath");
                 completion.completion(new PrinterErrorException(PrinterInfo.ErrorCode.ERROR_WRONG_LABEL));
