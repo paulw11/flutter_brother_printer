@@ -316,8 +316,8 @@
       }
 
       settings.autoCut = TRUE;
-      settings.halfTone = BRLMPrintSettingsHalftoneErrorDiffusion;
-      settings.printOrientation = BRLMPrintSettingsOrientationLandscape;
+      settings.halftone = BRLMPrintSettingsHalftoneErrorDiffusion;
+      settings.printOrientation = BRLMPrintSettingsRotationRotate90;
       settings.printQuality = BRLMPrintSettingsPrintQualityBest;
       return settings;
       }
